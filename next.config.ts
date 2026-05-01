@@ -6,9 +6,10 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === "production" ? "/wedding-invitation" : "",
+  basePath:
+    process.env.NODE_ENV === "production" ? "/Vuquy-TienSy-vs-ThuHuong" : "",
   assetPrefix:
-    process.env.NODE_ENV === "production" ? "/wedding-invitation/" : "",
+    process.env.NODE_ENV === "production" ? "/Vuquy-TienSy-vs-ThuHuong/" : "",
   trailingSlash: true, // Ensure trailing slashes for GitHub Pages compatibility
 };
 
