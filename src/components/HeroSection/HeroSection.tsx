@@ -98,7 +98,7 @@ export default function HeroSection() {
 
         <motion.p className={styles.subtitle} variants={fadeUp}>
           Trân trọng kính mời bạn đến dự lễ
-          <span className={styles.separatorName}>Vu Quy</span> của gia đình
+          <span className={styles.separatorName}>Vu Quy</span> cùng gia đình
           chúng tôi
         </motion.p>
 

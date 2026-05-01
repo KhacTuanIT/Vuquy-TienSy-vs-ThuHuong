@@ -19,7 +19,7 @@
    ============================================ */
 .eventsGrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: var(--space-lg);
   max-width: 900px;
   margin: 0 auto;
@@ -35,7 +35,9 @@
   flex-direction: column;
   align-items: center;
   gap: var(--space-sm);
-  transition: transform 0.6s var(--ease-elegant), box-shadow 0.6s var(--ease-elegant);
+  transition:
+    transform 0.6s var(--ease-elegant),
+    box-shadow 0.6s var(--ease-elegant);
 }
 
 .eventCard:hover {
