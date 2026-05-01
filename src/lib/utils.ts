@@ -4,9 +4,7 @@
  * In development, they are served from root.
  */
 export function getBasePath(): string {
-  return process.env.NODE_ENV === "production"
-    ? "/Vuquy-TienSy-vs-ThuHuong"
-    : "";
+  return process.env.NODE_ENV === "production" ? "" : "";
 }
 
 /**

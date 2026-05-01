@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { EASE_CINEMATIC } from "@/lib/utils";
 import styles from "./GiftRegistry.module.css";
-import { Heart, Banknote, Smartphone, QrCode, Copy } from "lucide-react";
+import { Heart, QrCode, Copy } from "lucide-react";
 
 interface BankDetails {
   bank: string;

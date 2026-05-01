@@ -7,9 +7,9 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   basePath:
-    process.env.NODE_ENV === "production" ? "/Vuquy-TienSy-vs-ThuHuong" : "",
+    process.env.NODE_ENV === "production" ? "" : "",
   assetPrefix:
-    process.env.NODE_ENV === "production" ? "/Vuquy-TienSy-vs-ThuHuong/" : "",
+    process.env.NODE_ENV === "production" ? "" : "",
   trailingSlash: true, // Ensure trailing slashes for GitHub Pages compatibility
 };
 
