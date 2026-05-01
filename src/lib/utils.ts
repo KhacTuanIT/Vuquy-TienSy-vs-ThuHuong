@@ -4,7 +4,9 @@
  * In development, they are served from root.
  */
 export function getBasePath(): string {
-  return process.env.NODE_ENV === "production" ? "/wedding-invitation" : "";
+  return process.env.NODE_ENV === "production"
+    ? "/Vuquy-TienSy-vs-ThuHuong"
+    : "";
 }
 
 /**
@@ -19,5 +21,7 @@ export function assetPath(path: string): string {
 /**
  * Cinematic easing curves for framer-motion animations.
  */
-export const EASE_CINEMATIC: [number, number, number, number] = [0.16, 1, 0.3, 1];
+export const EASE_CINEMATIC: [number, number, number, number] = [
+  0.16, 1, 0.3, 1,
+];
 export const EASE_ELEGANT: [number, number, number, number] = [0.4, 0, 0.2, 1];
