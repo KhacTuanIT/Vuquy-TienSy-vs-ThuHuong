@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { motion } from "framer-motion";
 import { EASE_CINEMATIC } from "@/lib/utils";
@@ -101,7 +101,7 @@ export default function NavigationOverlay() {
       aria-label="Các phần của thiệp cưới"
     >
       <a className={styles.brand} href="#hero" aria-label="Quay lại lời mời">
-        A<span>&</span>B
+        S<span>&</span>H
       </a>
       <button
         type="button"

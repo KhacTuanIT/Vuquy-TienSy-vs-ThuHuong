@@ -2,7 +2,6 @@
 
 /* eslint-disable @next/next/no-img-element */
 
-import React from "react";
 import { motion } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { assetPath, EASE_CINEMATIC } from "@/lib/utils";

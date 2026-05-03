@@ -2,7 +2,7 @@
 
 /* eslint-disable @next/next/no-img-element */
 
-import React, { useState, useCallback, useEffect, useRef } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
@@ -128,7 +128,7 @@ export default function GallerySection() {
                   <button
                     className={`${styles.lightboxNav} ${styles.lightboxPrev}`}
                     onClick={goPrev}
-                  aria-label="Ảnh trước"
+                    aria-label="Ảnh trước"
                   >
                     <svg
                       viewBox="0 0 24 24"
@@ -142,7 +142,7 @@ export default function GallerySection() {
                   <button
                     className={`${styles.lightboxNav} ${styles.lightboxNext}`}
                     onClick={goNext}
-                  aria-label="Ảnh tiếp theo"
+                    aria-label="Ảnh tiếp theo"
                   >
                     <svg
                       viewBox="0 0 24 24"

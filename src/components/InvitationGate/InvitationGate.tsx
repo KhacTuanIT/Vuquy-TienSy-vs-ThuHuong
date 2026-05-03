@@ -1,9 +1,10 @@
 "use client";
 
-import React, { useState, useCallback, useRef, useEffect } from "react";
+import { useState, useCallback, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { assetPath, EASE_ELEGANT, EASE_CINEMATIC } from "@/lib/utils";
 import styles from "./InvitationGate.module.css";
+import { useMusicContext } from "@/contexts/useMusicContext";
 
 interface InvitationGateProps {
   onOpen: () => void;
@@ -15,6 +16,7 @@ export default function InvitationGate({ onOpen }: InvitationGateProps) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const hasActivatedRef = useRef(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const { isPlaying, togglePlay } = useMusicContext();
 
   useEffect(() => {
     document.body.style.overflow = "hidden";
@@ -38,12 +40,13 @@ export default function InvitationGate({ onOpen }: InvitationGateProps) {
 
     hasActivatedRef.current = true;
     setIsOpening(true);
+    if (!isPlaying) togglePlay(); // Start playing music when the invitation is opened
 
     window.setTimeout(() => {
       setIsOpened(true);
       window.setTimeout(onOpen, 1200);
     }, 1800);
-  }, [onOpen]);
+  }, [onOpen, togglePlay, isPlaying]);
 
   return (
     <AnimatePresence>

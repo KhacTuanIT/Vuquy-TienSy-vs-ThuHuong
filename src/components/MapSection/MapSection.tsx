@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { motion } from "framer-motion";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { EASE_CINEMATIC } from "@/lib/utils";
@@ -51,7 +50,13 @@ export default function MapSection() {
             className={styles.directionsLink}
           >
             Xem Chỉ Đường
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={styles.arrowIcon}>
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              className={styles.arrowIcon}
+            >
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
           </a>

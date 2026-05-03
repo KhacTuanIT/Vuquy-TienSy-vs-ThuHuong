@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useCallback } from "react";
+import { useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import InvitationGate from "@/components/InvitationGate/InvitationGate";
 import HeroSection from "@/components/HeroSection/HeroSection";
@@ -14,6 +14,7 @@ import GiftRegistry from "@/components/GiftRegistry/GiftRegistry";
 import MusicPlayer from "@/components/MusicPlayer/MusicPlayer";
 import NavigationOverlay from "@/components/NavigationOverlay/NavigationOverlay";
 import Footer from "@/components/Footer/Footer";
+import { MusicProvider } from "@/contexts/useMusicContext";
 
 const easeCinematic: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
@@ -27,7 +28,7 @@ export default function Home() {
   }, []);
 
   return (
-    <>
+    <MusicProvider>
       {/* Invitation Gate - shown first */}
       {!isInvitationOpened && <InvitationGate onOpen={handleOpen} />}
 
@@ -54,6 +55,6 @@ export default function Home() {
 
       {isInvitationOpened && <NavigationOverlay />}
       {isInvitationOpened && <MusicPlayer />}
-    </>
+    </MusicProvider>
   );
 }
