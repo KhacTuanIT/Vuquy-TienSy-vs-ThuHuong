@@ -28,7 +28,7 @@ export const MusicProvider: React.FC<{ children: React.ReactNode }> = ({
       audioRef.current = new Audio();
       audioRef.current.loop = true;
       audioRef.current.volume = 0.3;
-      audioRef.current.src = "/music/wedding-music.wav";
+      audioRef.current.src = "/music/wedding-music.mp3";
     }
 
     if (isPlaying) {
