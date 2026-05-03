@@ -283,3 +283,10 @@ button {
   background: var(--color-gold);
   color: var(--color-white);
 }
+
+@font-face {
+  font-family: "Great Vibes";
+  src: url("/fonts/GreatVibes-Regular.tff") format("tff");
+  font-weight: 400;
+  font-style: normal;
+}

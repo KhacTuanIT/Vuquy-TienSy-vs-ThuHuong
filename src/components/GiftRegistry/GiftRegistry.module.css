@@ -211,7 +211,7 @@
 
 .thankYou {
   max-width: 600px;
-  margin: var(--space-lg) auto 0;
+  margin: 0 auto;
   font-family: var(--font-serif);
   font-size: clamp(0.9rem, 2vw, 1rem);
   font-weight: 300;

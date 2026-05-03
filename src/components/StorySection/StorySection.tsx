@@ -21,7 +21,7 @@ const stories = [
   {
     id: "story4",
     title: "Lời Cầu Hôn",
-    text: "Và rồi, vào một ngày không còn bình thường nữa, một câu hỏi giản dị được cất lên: “Em/Anh có đồng ý cùng anh/em đi hết phần đời còn lại không?” Không cần câu trả lời quá dài, chỉ một cái gật đầu — nhưng lại là lời hứa cho cả một chặng đường phía trước. Từ khoảnh khắc ấy, câu chuyện của chúng ta không chỉ là tình yêu, mà là sự bắt đầu của một mái ấm.",
+    text: "Và rồi, vào một ngày không còn bình thường nữa, một câu hỏi giản dị được cất lên: “Em có đồng ý cùng anh đi hết phần đời còn lại không?” Không cần câu trả lời quá dài, chỉ một cái gật đầu — nhưng lại là lời hứa cho cả một chặng đường phía trước. Từ khoảnh khắc ấy, câu chuyện của chúng ta không chỉ là tình yêu, mà là sự bắt đầu của một mái ấm.",
     image: "/images/story4.jpg",
   },
 ];
