@@ -51,7 +51,7 @@
   grid-template-columns: repeat(1, 1fr);
   gap: var(--space-md);
   max-width: 1000px;
-  margin: 0 auto var(--space-md);
+  margin: 0 auto var(--space-sm);
 }
 
 /* ============================================
@@ -174,8 +174,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: var(--space-sm);
-  padding: var(--space-lg);
+  gap: var(--space-xs);
+  padding: var(--space-sm);
   background: rgba(212, 175, 55, 0.05);
   border: 1px dashed rgba(212, 175, 55, 0.3);
   border-radius: var(--radius-md);
@@ -240,7 +240,7 @@
   }
 
   .details {
-    margin-top: var(--space-sm);
+    margin-top: var(--space-xs);
     padding-top: var(--space-sm);
   }
 
@@ -302,12 +302,11 @@
   transform: translateY(0);
 }
 
-/* Nút tải xuống ảnh QR Code */
 .downloadButton {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-top: var(--space-sm);
+  margin-top: var(--space-xs);
   padding: var(--space-xs) var(--space-sm);
   font-size: 0.85rem;
   font-weight: 500;
