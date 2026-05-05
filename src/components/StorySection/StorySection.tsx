@@ -53,21 +53,23 @@ function StoryItem({
         <div className={styles.timelineLine} />
       </div>
       <div className={styles.storyContent}>
-        <div className={styles.storyImage}>
-          {!imageError ? (
-            <Image
-              src={story.image}
-              alt={story.title}
-              width={300}
-              height={200}
-              onError={() => setImageError(true)}
-            />
-          ) : (
-            <div className={styles.imageFallback}>
-              <span>💕</span>
-            </div>
-          )}
-        </div>
+        {index === 0 && (
+          <div className={styles.storyImage}>
+            {!imageError ? (
+              <Image
+                src={story.image}
+                alt={story.title}
+                width={300}
+                height={200}
+                onError={() => setImageError(true)}
+              />
+            ) : (
+              <div className={styles.imageFallback}>
+                <span>💕</span>
+              </div>
+            )}
+          </div>
+        )}
         <h3 className={styles.storyTitle}>{story.title}</h3>
         <p className={styles.storyText}>{story.text}</p>
       </div>

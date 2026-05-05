@@ -10,12 +10,23 @@ import { assetPath, EASE_CINEMATIC } from "@/lib/utils";
 import styles from "./GallerySection.module.css";
 
 const galleryImages = [
-  { src: "/images/gallery-1.png", alt: "Không gian tiệc cưới lúc hoàng hôn" },
-  { src: "/images/gallery-2.png", alt: "Chi tiết nhẫn cưới" },
-  { src: "/images/gallery-3.png", alt: "Bàn tiệc được chuẩn bị tinh tế" },
-  { src: "/images/gallery-4.png", alt: "Khoảnh khắc bên nhau trong khu vườn" },
-  { src: "/images/gallery-5.png", alt: "Bó hoa cưới dịu dàng" },
-  { src: "/images/gallery-6.png", alt: "Điệu nhảy đầu tiên" },
+  { src: "/images/1.jfif", alt: "" },
+  { src: "/images/2.jfif", alt: "" },
+  { src: "/images/3.jfif", alt: "" },
+  { src: "/images/4.jfif", alt: "" },
+  { src: "/images/5.jfif", alt: "" },
+  { src: "/images/6.jfif", alt: "" },
+  { src: "/images/7.jfif", alt: "" },
+  { src: "/images/8.jfif", alt: "" },
+  { src: "/images/9.jfif", alt: "" },
+  { src: "/images/10.jfif", alt: "" },
+  { src: "/images/11.jfif", alt: "" },
+  { src: "/images/12.jfif", alt: "" },
+  { src: "/images/13.jfif", alt: "" },
+  { src: "/images/14.jfif", alt: "" },
+  { src: "/images/15.jfif", alt: "" },
+  { src: "/images/16.jfif", alt: "" },
+  { src: "/images/17.jfif", alt: "" },
 ];
 
 export default function GallerySection() {
@@ -229,7 +240,7 @@ export default function GallerySection() {
         </motion.div>
 
         <div className={styles.grid}>
-          {galleryImages.map((img, i) => (
+          {galleryImages.slice(0, 6).map((img, i) => (
             <motion.div
               key={img.src}
               className={styles.gridItem}

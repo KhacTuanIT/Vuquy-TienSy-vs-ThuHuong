@@ -19,9 +19,9 @@ const events = [
       </svg>
     ),
     title: "Lễ Vu Quy",
-    time: "11:00",
-    location: "Nhà Thờ Thánh Tâm",
-    address: "123 Đại lộ Tình Yêu, TP. Hồ Chí Minh",
+    time: "4:30 PM",
+    location: "Tư Gia Nhà Gái",
+    address: "Sông Lô, Phú Thọ, Việt Nam",
     description:
       "Kính mời bạn cùng chứng kiến khoảnh khắc chúng tôi trao lời nguyện ước trong không gian ấm cúng bên gia đình và bạn bè thân thương.",
   },

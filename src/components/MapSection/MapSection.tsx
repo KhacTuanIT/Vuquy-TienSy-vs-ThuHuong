@@ -29,22 +29,22 @@ export default function MapSection() {
       >
         <div className={`${styles.mapContainer} glass-card`}>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.394768!2d106.6875!3d10.7763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDQ2JzM0LjciTiAxMDbCsDQxJzE1LjAiRQ!5e0!3m2!1sen!2s!4v1234567890"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d232.20307357384084!2d105.4274679!3d21.3800912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134eded02252e87%3A0x84fa0d29c526c0fe!2zTmFpbCBIxrDGoW5nIE5ndXnhu4Vu!5e0!3m2!1svi!2s!4v1777986500477!5m2!1svi!2s"
             className={styles.map}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             title="Địa điểm tổ chức lễ cưới"
-          />
+          ></iframe>
         </div>
 
         <div className={styles.venueInfo}>
-          <h3 className={styles.venueName}>Grand Lotus Ballroom</h3>
+          <h3 className={styles.venueName}>Tư Gia Nhà Gái</h3>
           <p className={styles.venueAddress}>
-            456 Đường Hạnh Phúc, Quận 1, TP. Hồ Chí Minh
+            Nail Hương Nguyễn 9CHH+X2P, ĐT306, Sông Lô, Phú Thọ, Việt Nam
           </p>
           <a
-            href="https://maps.google.com"
+            href="https://maps.app.goo.gl/WBbx5HyQpw1e2Mw36"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.directionsLink}

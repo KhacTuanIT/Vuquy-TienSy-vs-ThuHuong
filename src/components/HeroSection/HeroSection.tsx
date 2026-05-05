@@ -109,7 +109,7 @@ export default function HeroSection() {
             <span className={styles.dateNum}>19</span>
             <span className={styles.dateYear}>2026</span>
           </div>
-          <span className={styles.dateTime}>vào lúc 11 giờ sáng</span>
+          <span className={styles.dateTime}>vào lúc 4 giờ 30 phút chiều</span>
         </motion.div>
 
         <motion.div className={styles.scrollIndicator} variants={fadeUp}>
